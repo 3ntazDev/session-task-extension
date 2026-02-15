@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Session Task Reminder",
+  "version": "1.0",
+  "description": "Temporary session task tracker with close warning.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

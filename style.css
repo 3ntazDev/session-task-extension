@@ -1,0 +1,26 @@
+#taskPanel {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 230px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 999999;
+  font-family: Arial;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#taskPanel h3 {
+  margin: 0 0 8px;
+}
+
+#taskPanel input {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+#taskPanel button {
+  width: 100%;
+  margin-bottom: 8px;
+}
